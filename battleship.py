@@ -91,7 +91,7 @@ class Board:
   def checkWin(self,OG,values):
     fleet = OG.getFleet()
     if self.hits == fleet:
-      print 'game'
+      print 'GAME OVER'
       print self.hits, fleet
     
     
